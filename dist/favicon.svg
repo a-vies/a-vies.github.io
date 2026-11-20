@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Biểu trưng chữ V">
+  <rect width="64" height="64" fill="#e30613"/>
+  <path fill="#fff" d="M13 12h20v8H13zM19 6h8v20h-8z"/>
+  <path fill="#fff" d="m33 33 7 18 7-18h9L44 59h-8L24 33z"/>
+</svg>
