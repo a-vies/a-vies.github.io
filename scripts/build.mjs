@@ -155,7 +155,7 @@ const renderMarkdown = (markdown) => {
   return blocks.join("\n");
 };
 
-const validateArticle = (article, file, category) => {
+const validateArticle = async (article, file, category) => {
   const filenameMatch = /^(\d{8})-([a-z0-9]+(?:-[a-z0-9]+)*)\.md$/.exec(file);
   if (!filenameMatch) {
     throw new Error(`Invalid article filename in content/${category.slug}: ${file}. Use YYYYMMDD-slug.md.`);
@@ -237,7 +237,7 @@ for (const category of categories) {
   const articles = await Promise.all(files.map(async (file) => {
     const sourcePath = join(sourceDirectory, file);
     const article = parseMarkdownFile(await readFile(sourcePath, "utf8"), sourcePath);
-    return { ...validateArticle({ ...article, bodyHtml: renderMarkdown(article.markdown) }, file, category), file };
+    return { ...await validateArticle({ ...article, bodyHtml: renderMarkdown(article.markdown) }, file, category), file };
   }));
   articles.sort((left, right) => right.date.localeCompare(left.date) || left.file.localeCompare(right.file));
 
