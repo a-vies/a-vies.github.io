@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://avies.github.io/sitemap.xml
