@@ -1,6 +1,6 @@
 ---
 title: "Tiêu đề bài viết"
-summary: "Mô tả ngắn hiển thị trong danh sách chuyên mục."
+summary: "Mô tả ngắn hiển thị trong danh sách bài viết chuyên môn."
 image: "../images/editorial-cover.svg"
 author: "Tên tác giả"
 sourceUrl: "https://example.org/bai-viet"

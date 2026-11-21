@@ -1,6 +1,6 @@
 ---
 title: "Võ Cẩm Quy: từ nghiên cứu công nghệ sinh học đến khởi nghiệp"
-summary: "Hành trình nghề nghiệp được trang AVIES giới thiệu, qua nghiên cứu, quản lý học thuật và hai dự án khởi nghiệp tại châu Âu."
+summary: "Chuyên gia AVIES: hành trình từ nghiên cứu, quản lý học thuật đến hai dự án khởi nghiệp tại châu Âu."
 image: "../images/vo-cam-quy.svg"
 sourceUrl: "https://sites.google.com/view/trithuc-chuyengia-thuysi/g%C6%B0%C6%A1ng-m%E1%BA%B7t-chuy%C3%AAn-gia"
 sourceLabel: "Trang Gương mặt chuyên gia của AVIES"

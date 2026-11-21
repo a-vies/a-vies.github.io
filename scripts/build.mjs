@@ -11,7 +11,7 @@ await cp("images", "dist/images", { recursive: true });
 
 const categories = [
   {
-    slug: "guong-mat-chuyen-gia",
+    slug: "chuyen-gia",
     title: "Gương mặt chuyên gia",
     description: "Câu chuyện và hành trình của các chuyên gia trong mạng lưới AVIES.",
     changefreq: "monthly"
@@ -23,7 +23,7 @@ const categories = [
     changefreq: "weekly"
   },
   {
-    slug: "goc-nhin-chuyen-mon",
+    slug: "chuyen-mon",
     title: "Góc nhìn chuyên môn",
     description: "Phân tích và chia sẻ chuyên sâu từ các chuyên gia trong Hội.",
     changefreq: "monthly"

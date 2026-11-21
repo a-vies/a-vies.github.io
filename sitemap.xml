@@ -3,7 +3,7 @@
   <url><loc>https://avies.github.io/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://avies.github.io/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://avies.github.io/imprint.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://avies.github.io/guong-mat-chuyen-gia/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://avies.github.io/chuyen-gia/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://avies.github.io/tin-tuc/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://avies.github.io/goc-nhin-chuyen-mon/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://avies.github.io/chuyen-mon/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
