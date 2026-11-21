@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f8f7f3"/>
+  <rect x="650" y="85" width="460" height="400" fill="#e30613"/>
+  <path d="M730 400h300M760 345h240M790 290h180" stroke="#fff" stroke-width="4" opacity=".9"/>
+  <circle cx="760" cy="210" r="30" fill="#fff"/>
+  <circle cx="880" cy="210" r="30" fill="#fff" opacity=".75"/>
+  <circle cx="1000" cy="210" r="30" fill="#fff" opacity=".5"/>
+  <path d="M140 525h930" stroke="#151515" stroke-width="2" opacity=".3"/>
+  <text x="85" y="220" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="5">TIN TỨC HOẠT ĐỘNG</text>
+  <text x="85" y="305" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="58">Đổi mới</text>
+  <text x="85" y="373" fill="#e30613" font-family="Helvetica,Arial,sans-serif" font-size="58">và khởi nghiệp</text>
+  <text x="85" y="585" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="22" letter-spacing="4">AVIES · FHNW · SWITZERLAND</text>
+</svg>

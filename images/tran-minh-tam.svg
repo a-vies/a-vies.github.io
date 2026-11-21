@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#edf2f3"/>
+  <path d="M710 0h490v675H610z" fill="#e2e8e8"/>
+  <circle cx="900" cy="340" r="205" fill="#fff" stroke="#151515" stroke-width="2"/>
+  <circle cx="900" cy="340" r="153" fill="none" stroke="#e30613" stroke-width="4"/>
+  <circle cx="900" cy="340" r="95" fill="none" stroke="#151515" stroke-width="2" stroke-dasharray="8 12"/>
+  <circle cx="900" cy="340" r="24" fill="#e30613"/>
+  <circle cx="1065" cy="340" r="10" fill="#151515"/>
+  <circle cx="780" cy="225" r="9" fill="#e30613"/>
+  <circle cx="820" cy="485" r="8" fill="#151515"/>
+  <text x="80" y="250" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="5">CHUYÊN GIA</text>
+  <text x="80" y="330" fill="#e30613" font-family="Helvetica,Arial,sans-serif" font-size="58">Nghiên cứu</text>
+  <text x="80" y="398" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="58">vật lý hạt</text>
+  <text x="80" y="530" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="22" letter-spacing="4">AVIES · SWITZERLAND</text>
+</svg>

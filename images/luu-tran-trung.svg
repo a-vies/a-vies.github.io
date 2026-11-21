@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#151515"/>
+  <circle cx="860" cy="330" r="238" fill="none" stroke="#e30613" stroke-width="2"/>
+  <circle cx="860" cy="330" r="176" fill="none" stroke="#fff" stroke-width="2" opacity=".7"/>
+  <circle cx="860" cy="330" r="92" fill="#e30613"/>
+  <circle cx="860" cy="330" r="17" fill="#fff"/>
+  <path d="M620 330h480M860 90v480M690 160l340 340M1030 160 690 500" stroke="#fff" stroke-width="1" opacity=".35"/>
+  <text x="80" y="250" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="5">CHUYÊN GIA</text>
+  <text x="80" y="330" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="58">Vật lý</text>
+  <text x="80" y="398" fill="#e30613" font-family="Helvetica,Arial,sans-serif" font-size="58">hạt cơ bản</text>
+  <text x="80" y="530" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="22" letter-spacing="4" opacity=".7">AVIES · SWITZERLAND</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#151515"/>
+  <g stroke="#e30613" stroke-width="3" opacity=".85">
+    <path d="M745 180 900 270 1040 170M745 180l70 205 180-115M815 385l150 120 75-335M900 270l65 235M745 180l220 325"/>
+  </g>
+  <g fill="#f8f7f3">
+    <circle cx="745" cy="180" r="18"/><circle cx="900" cy="270" r="18"/><circle cx="1040" cy="170" r="18"/>
+    <circle cx="815" cy="385" r="18"/><circle cx="965" cy="505" r="18"/>
+  </g>
+  <circle cx="900" cy="270" r="52" fill="#e30613"/>
+  <text x="900" y="288" text-anchor="middle" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="46" font-weight="700">AI</text>
+  <text x="80" y="250" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="5">GÓC NHÌN CHUYÊN MÔN</text>
+  <text x="80" y="335" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="58">AI và doanh nghiệp</text>
+  <text x="80" y="403" fill="#e30613" font-family="Helvetica,Arial,sans-serif" font-size="58">nhỏ và vừa</text>
+  <text x="80" y="540" fill="#fff" font-family="Helvetica,Arial,sans-serif" font-size="22" letter-spacing="4" opacity=".7">AVIES · SWITZERLAND</text>
+</svg>
