@@ -1,5 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Biểu trưng chữ V">
-  <rect width="64" height="64" fill="#e30613"/>
-  <path fill="#fff" d="M13 12h20v8H13zM19 6h8v20h-8z"/>
-  <path fill="#fff" d="m33 33 7 18 7-18h9L44 59h-8L24 33z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AVIES">
+  <g fill="#c82026">
+    <path d="M.59 16.38 1.3 16.05h14.68l10.31 7.89v2.85l-10.18.07v10.48L.98 37.21l-.72-.6L0 35.95V17.38z"/>
+    <path d="m23.55 37.27 2.87-.13V47.62h10.31v14.92l-.33.8-.65.53L17.22 64l-.71-.27-.59-.66-.13-15.39z"/>
+    <path d="m26.81.33.72-.33h18.33l.72.33.46.6.13 15.32-7.7 10.41h-2.94V16.38h-10.3V1.39z"/>
+    <path d="M47.89 26.66h14.74l1.11.73.26.73v18.37l-.72 1.19-.72.27H48.02l-10.31-7.89v-2.92h10.18z"/>
+  </g>
 </svg>

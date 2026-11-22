@@ -8,6 +8,8 @@ for (const path of ["index.html", "privacy.html", "imprint.html", "styles.css", 
   await cp(path, `dist/${path}`);
 }
 await cp("images", "dist/images", { recursive: true });
+await mkdir("dist/logo", { recursive: true });
+await cp("logo/avies-logo-small.png", "dist/logo/avies-logo-small.png");
 
 const categories = [
   {
@@ -217,7 +219,7 @@ const pageHeader = (title, description, prefix) => `<!doctype html>
   </head>
   <body>
     <header class="content-header">
-      <a class="brand" href="${prefix}" aria-label="AVIES — Trang chủ"><span class="brand-mark" aria-hidden="true"><i></i><b>V</b></span><span class="brand-name"><strong>AVIES</strong><small>Vietnamese Intellectuals &amp; Experts<br />in Switzerland</small></span></a>
+      <a class="brand" href="${prefix}" aria-label="AVIES — Trang chủ"><img class="brand-logo" src="${prefix}logo/avies-logo-small.png" alt="" /><span class="brand-name"><strong>AVIES</strong><small>Vietnamese Intellectuals &amp; Experts<br />in Switzerland</small></span></a>
       <a class="content-home" href="${prefix}">Trang chủ</a>
     </header>`;
 
