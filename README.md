@@ -5,6 +5,7 @@ Website chính thức dạng tĩnh cho **Association of Vietnamese Intellectuals
 ## Nội dung
 
 - Tên, sứ mệnh và dấu mốc thành lập ngày 02.06.2018 tại Genève
+- Trang About riêng tại `about.html` giới thiệu AVIES, hoạt động, điều kiện thành viên và Ban Chấp hành; ảnh của trang được lưu tại `images/about/`
 - Trọng tâm hoạt động và mạng lưới chuyên môn
 - Dòng thời gian 2018–2026 với liên kết nguồn cho từng sự kiện
 - Sáng kiến VietSearch, V-Space và các số liệu đóng góp cộng đồng

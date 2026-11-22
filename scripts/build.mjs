@@ -4,7 +4,7 @@ import { join } from "node:path";
 await rm("dist", { recursive: true, force: true });
 await mkdir("dist", { recursive: true });
 
-for (const path of ["index.html", "privacy.html", "imprint.html", "styles.css", "script.js", "favicon.svg", "404.html", "robots.txt", "sitemap.xml"]) {
+for (const path of ["index.html", "about.html", "privacy.html", "imprint.html", "styles.css", "script.js", "favicon.svg", "404.html", "robots.txt", "sitemap.xml"]) {
   await cp(path, `dist/${path}`);
 }
 await cp("images", "dist/images", { recursive: true });
@@ -220,7 +220,10 @@ const pageHeader = (title, description, prefix) => `<!doctype html>
   <body>
     <header class="content-header">
       <a class="brand" href="${prefix}" aria-label="AVIES — Trang chủ"><img class="brand-logo" src="${prefix}logo/avies-logo-small.png" alt="" /><span class="brand-name"><strong>AVIES</strong><small>Vietnamese Intellectuals &amp; Experts<br />in Switzerland</small></span></a>
-      <a class="content-home" href="${prefix}">Trang chủ</a>
+      <nav class="content-links" aria-label="Điều hướng">
+        <a href="${prefix}about.html">About AVIES</a>
+        <a class="content-home" href="${prefix}">Trang chủ</a>
+      </nav>
     </header>`;
 
 const pageFooter = `<footer class="content-footer">© AVIES · <a href="../privacy.html">Bảo vệ dữ liệu</a> · <a href="../imprint.html">Thông tin website</a></footer>
@@ -230,6 +233,7 @@ const pageFooter = `<footer class="content-footer">© AVIES · <a href="../priva
 
 const sitemapEntries = [
   { path: "/", changefreq: "monthly", priority: "1.0" },
+  { path: "/about.html", changefreq: "monthly", priority: "0.8" },
   { path: "/privacy.html", changefreq: "yearly", priority: "0.3" },
   { path: "/imprint.html", changefreq: "yearly", priority: "0.3" }
 ];
