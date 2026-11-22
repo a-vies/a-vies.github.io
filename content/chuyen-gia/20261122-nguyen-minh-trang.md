@@ -1,6 +1,6 @@
 ---
 title: "Nghệ sĩ đàn tranh Nguyễn Minh Trang đưa tiếng lòng Việt Nam chạm vào trái tim Thụy Sĩ"
-summary: "Gần hai thập kỷ làm bạn với âm nhạc dân tộc, với sự khiêm nhường và cởi mở, Nghệ sĩ đàn tranh Nguyễn Minh Trang mỗi ngày đều không ngừng nỗ lực để mang tiếng đàn Việt Nam vang lên trên khắp những vùng đất từ Việt Nam ra thế giới. Giữa lòng Thụy Sĩ và nhiều nước châu Âu, nhờ những đại diện văn hóa như Nguyễn Minh Trang, âm sắc Việt đang ngày càng tự tin khẳng định vị thế và hòa điệu trong dòng chảy văn hóa toàn cầu"
+summary: "Gần hai thập kỷ làm bạn với âm nhạc dân tộc, với sự khiêm nhường và cởi mở, Nghệ sĩ đàn tranh Nguyễn Minh Trang mỗi ngày đều không ngừng nỗ lực để mang tiếng đàn Việt Nam vang lên trên khắp những vùng đất từ Việt Nam ra thế giới."
 image: "../images/editorial-cover.svg"
 author: "Tatler Vietnam"
 sourceUrl: "https://www.tatlerasia.com/lifestyle/entertainment/best-of-switzerland-16-string-zither-artist-nguyen-minh-trang-vn"
