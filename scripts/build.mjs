@@ -175,7 +175,7 @@ const validateArticle = async (article, file, category) => {
   if (typeof article.summary !== "string" || !article.summary.trim()) {
     throw new Error(`Article summary is required: content/${category.slug}/${file}`);
   }
-  if (typeof article.image !== "string" || !/^\.{2}\/images\/[a-z0-9-]+\.(svg|webp|png|jpe?g)$/.test(article.image)) {
+  if (typeof article.image !== "string" || !/^\.{2}\/images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(article.image)) {
     throw new Error(`Article image must point to a local file under ../images/: content/${category.slug}/${file}`);
   }
   try {
