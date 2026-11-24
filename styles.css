@@ -276,6 +276,7 @@ button { font: inherit; }
 .about-activities { background: var(--mist); }
 .about-feature { margin: 3rem 0 0; }
 .about-feature img { display: block; width: 100%; max-height: 38rem; aspect-ratio: 16 / 8; object-fit: cover; background: var(--white); }
+.about-hero .about-feature img { max-height: none; aspect-ratio: auto; }
 .about-feature figcaption { margin-top: .65rem; color: var(--muted); font-size: .75rem; }
 .about-feature figcaption a { color: var(--red-dark); text-decoration: underline; text-underline-offset: .2em; }
 .about-activity-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin-top: 3rem; }
