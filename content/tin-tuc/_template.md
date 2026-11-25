@@ -1,7 +1,7 @@
 ---
 title: "Tiêu đề tin tức"
 summary: "Mô tả ngắn hiển thị trong danh sách tin tức."
-image: "../images/editorial-cover.svg"
+image: "images/editorial-cover.svg"
 sourceUrl: "https://example.org/bai-viet"
 sourceLabel: "Nguồn tham khảo"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Kết nối cơ hội Việt Nam–EFTA thành dự án hợp tác cụ thể"
 summary: "AVIES đề xuất huy động mạng lưới chuyên gia, đại học và doanh nghiệp để phát triển các dự án thí điểm có giá trị cao."
-image: "../images/innovation-forum.svg"
+image: "images/innovation-forum.svg"
 sourceUrl: "https://english.vov.vn/en/economy/vietnam-efta-fta-to-unlock-high-tech-investment-and-workforce-potential-post1342583.vov"
 sourceLabel: "VOV"
 ---

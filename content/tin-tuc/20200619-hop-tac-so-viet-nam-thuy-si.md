@@ -1,7 +1,7 @@
 ---
 title: "Chia sẻ tiềm năng hợp tác số Việt Nam–Thụy Sĩ"
 summary: "Chuyên gia AVIES trao đổi về cơ hội đổi mới sáng tạo, khoảng cách số và nhu cầu xây dựng hạ tầng số đồng bộ."
-image: "../images/symposium.avif"
+image: "images/symposium.avif"
 sourceUrl: "https://en.vietnamplus.vn/potential-for-vietnam-switzerland-cooperation-in-digital-transformation-experts-post175146.vnp"
 sourceLabel: "VietnamPlus"
 ---

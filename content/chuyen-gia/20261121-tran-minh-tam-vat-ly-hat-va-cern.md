@@ -1,7 +1,7 @@
 ---
 title: "Trần Minh Tâm: nhiều thập niên gắn bó với vật lý hạt"
 summary: "Quá trình học tập, nghiên cứu và giảng dạy của Tiến sĩ Trần Minh Tâm tại Thụy Sĩ."
-image: "../images/tran-minh-tam.svg"
+image: "images/tran-minh-tam.svg"
 sourceUrl: "https://sites.google.com/view/trithuc-chuyengia-thuysi/g%C6%B0%C6%A1ng-m%E1%BA%B7t-chuy%C3%AAn-gia/ts-tr%E1%BA%A7n-minh-t%C3%A2m-v%E1%BB%9Bi-ph%C6%B0%C6%A1ng-ch%C3%A2m-s%E1%BB%91ng-ch%C3%A2n-th%C3%A0nh"
 sourceLabel: "Hồ sơ chuyên gia trên trang AVIES"
 ---

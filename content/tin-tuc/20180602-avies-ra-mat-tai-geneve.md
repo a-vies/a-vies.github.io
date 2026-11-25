@@ -1,7 +1,7 @@
 ---
 title: "AVIES ra mắt tại Genève"
 summary: "Hội Trí thức và Chuyên gia Việt Nam tại Thụy Sĩ ra mắt Ban Chấp hành vào tháng 6.2018, quy tụ khoảng 70 chuyên gia."
-image: "../images/editorial-cover.svg"
+image: "images/editorial-cover.svg"
 sourceUrl: "https://en.nhandan.vn/association-of-vietnamese-experts-in-switzerland-set-up-post61451.html"
 sourceLabel: "Báo Nhân Dân"
 ---

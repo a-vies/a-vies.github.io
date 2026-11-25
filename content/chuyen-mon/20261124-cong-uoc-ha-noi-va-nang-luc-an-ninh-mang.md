@@ -1,7 +1,7 @@
 ---
 title: "Công ước Hà Nội và cơ hội củng cố năng lực an ninh mạng Việt Nam"
 summary: "TS. Lưu Vĩnh Toàn nhận định Công ước Hà Nội có thể thúc đẩy hợp tác quốc tế, đồng thời gợi mở những ưu tiên về thể chế, hạ tầng, nhân lực và bảo vệ quyền riêng tư số."
-image: "../images/cong-uoc-ha-noi.avif"
+image: "images/cong-uoc-ha-noi.avif"
 author: "Biên tập từ cuộc phỏng vấn TS. Lưu Vĩnh Toàn trên VietnamPlus"
 sourceUrl: "https://www.vietnamplus.vn/cong-uoc-ha-noi-chuyen-gia-tai-thuy-si-danh-gia-cao-tiem-nang-cua-viet-nam-post1071976.vnp"
 sourceLabel: "VietnamPlus"

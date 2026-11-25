@@ -1,7 +1,7 @@
 ---
 title: "Ngày Việt Nam 2023 tại Zürich quy tụ 150 đại biểu"
 summary: "AVIES phối hợp tổ chức tọa đàm về thương mại, đầu tư và công nghệ với sự tham gia của đại biểu hai nước."
-image: "../images/innovation-forum.svg"
+image: "images/innovation-forum.svg"
 sourceUrl: "https://en.qdnd.vn/economy/international-cooperation/vietnam-switzerland-look-to-expand-trade-investment-cooperation-556225"
 sourceLabel: "Quân đội Nhân dân"
 ---

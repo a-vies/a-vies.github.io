@@ -1,7 +1,7 @@
 ---
 title: "Tiêu đề bài viết"
 summary: "Mô tả ngắn hiển thị trong danh sách bài viết chuyên môn."
-image: "../images/editorial-cover.svg"
+image: "images/editorial-cover.svg"
 author: "Tên tác giả"
 sourceUrl: "https://example.org/bai-viet"
 sourceLabel: "Nguồn tham khảo"

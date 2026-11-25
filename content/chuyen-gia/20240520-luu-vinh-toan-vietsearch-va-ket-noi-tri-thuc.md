@@ -1,7 +1,7 @@
 ---
 title: "TS. Lưu Vĩnh Toàn: Kết nối tri thức Việt qua công nghệ"
 summary: "Từ kinh nghiệm tìm kiếm thông tin và trí tuệ nhân tạo, TS. Lưu Vĩnh Toàn cùng cộng sự phát triển VietSearch và các sáng kiến kết nối nguồn lực Việt toàn cầu."
-image: "../images/luu-vinh-toan.jpg"
+image: "images/luu-vinh-toan-vtc-portrait.jpg"
 sourceUrl: "https://vtcnews.vn/chuyen-gia-cong-nghe-viet-o-thuy-sy-tim-cach-noi-dai-du-an-huong-ve-que-huong-ar863639.html"
 sourceLabel: "VTC News, ngày 20/05/2024"
 ---

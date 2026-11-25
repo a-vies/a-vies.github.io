@@ -1,7 +1,7 @@
 ---
 title: "AVIES hỗ trợ Swiss–Viet Economic Forum 2024"
 summary: "Diễn đàn tại Đại học Zürich thúc đẩy quan hệ kinh tế và hợp tác bền vững giữa Việt Nam và Thụy Sĩ."
-image: "../images/innovation-forum.svg"
+image: "images/innovation-forum.svg"
 sourceUrl: "https://www.svef.ch/post/swiss-viet-economic-forum-2024-strengthening-ties-building-futures"
 sourceLabel: "Swiss–Viet Economic Forum"
 ---

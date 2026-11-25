@@ -175,13 +175,13 @@ const validateArticle = async (article, file, category) => {
   if (typeof article.summary !== "string" || !article.summary.trim()) {
     throw new Error(`Article summary is required: content/${category.slug}/${file}`);
   }
-  if (typeof article.image !== "string" || !/^\.{2}\/images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(article.image)) {
-    throw new Error(`Article image must point to a local file under ../images/: content/${category.slug}/${file}`);
+  if (typeof article.image !== "string" || !/^images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(article.image)) {
+    throw new Error(`Article image must point to a local file under content/${category.slug}/images/: content/${category.slug}/${file}`);
   }
   try {
-    await access(join("images", article.image.slice("../images/".length)));
+    await access(join("content", category.slug, article.image));
   } catch (error) {
-    throw new Error(`Article image file does not exist: images/${article.image.slice("../images/".length)}`, { cause: error });
+    throw new Error(`Article image file does not exist: content/${category.slug}/${article.image}`, { cause: error });
   }
   if (article.author !== undefined && typeof article.author !== "string") {
     throw new Error(`Article author must be a string: content/${category.slug}/${file}`);
@@ -249,6 +249,7 @@ for (const category of categories) {
 
   const outputDirectory = join("dist", category.slug);
   await mkdir(outputDirectory, { recursive: true });
+  await cp(join(sourceDirectory, "images"), join(outputDirectory, "images"), { recursive: true });
   const articleLinks = articles.length
     ? articles.map((article) => `<a class="content-list-item" href="${article.outputFile}">
         <img class="content-card-image" src="${escapeHtml(article.image)}" alt="" loading="lazy" decoding="async" />

@@ -1,7 +1,7 @@
 ---
 title: "Đối thoại với Thứ trưởng Ngoại giao Phạm Quang Hiệu"
 summary: "Cuộc gặp ghi nhận các đóng góp cộng đồng của AVIES và trao đổi về những sáng kiến kết nối chuyên gia."
-image: "../images/nguoi-viet-nam-tai-thuy-sy.jpg"
+image: "images/nguoi-viet-nam-tai-thuy-sy.jpg"
 sourceUrl: "https://www.ttdn.vn/co-quan-dai-dien-va-kieu-bao/kieu-bao/thu-truong-ngoai-giao-pham-quang-hieu-trao-doi-voi-hoi-tri-thuc-chuyen-gia-nguoi-viet-nam-tai-thuy-sy-62156"
 sourceLabel: "Thông tin đối ngoại"
 ---

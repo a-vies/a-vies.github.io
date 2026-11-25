@@ -1,7 +1,7 @@
 ---
 title: "AI trong doanh nghiệp nhỏ: bắt đầu từ quy trình và dữ liệu"
 summary: "Góc nhìn của chuyên gia Lưu Vĩnh Toàn về cách doanh nghiệp nhỏ tiếp cận AI theo từng bước."
-image: "../images/ai-business.svg"
+image: "images/ai-business.svg"
 author: "Biên tập từ chia sẻ của Tiến sĩ Lưu Vĩnh Toàn"
 sourceUrl: "https://sites.google.com/view/trithuc-chuyengia-thuysi/c%C3%B4ng-ngh%E1%BB%87-k%E1%BB%B9-thu%E1%BA%ADt/ai-s%E1%BA%BD-l%C3%A0-c%E1%BA%A1m-b%E1%BA%ABy-n%E1%BA%BFu-doanh-nghi%E1%BB%87p-nh%E1%BB%8F-v%C3%A0-v%E1%BB%ABa-d%C3%B9ng-sai-hay-%E1%BA%A3o-t%C6%B0%E1%BB%9Fng"
 sourceLabel: "Bài phỏng vấn trên trang AVIES"

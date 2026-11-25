@@ -1,7 +1,7 @@
 ---
 title: "Lưu Trần Trung và hành trình nghiên cứu vật lý tại châu Âu"
 summary: "Chặng đường học tập và nghiên cứu vật lý của Tiến sĩ Lưu Trần Trung."
-image: "../images/luu-tran-trung.svg"
+image: "images/luu-tran-trung.svg"
 sourceUrl: "https://baoquocte.vn/tien-si-8x-viet-ghi-ten-minh-o-linh-vuc-vat-ly-giua-troi-au-37337.html"
 sourceLabel: "Báo Thế giới và Việt Nam"
 ---
