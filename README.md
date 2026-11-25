@@ -1,15 +1,14 @@
 # AVIES — GitHub Pages website
 
-Website chính thức dạng tĩnh cho **Association of Vietnamese Intellectuals and Experts in Switzerland (AVIES)** — Hội Trí thức và Chuyên gia Việt Nam tại Thụy Sĩ.
+Website chính thức cho **Association of Vietnamese Intellectuals and Experts in Switzerland (AVIES)** - Hội Trí thức và Chuyên gia Việt Nam tại Thụy Sĩ.
 
 ## Nội dung
 
-- Tên, sứ mệnh và dấu mốc thành lập ngày 02.06.2018 tại Genève
-- Trang About riêng tại `about.html` giới thiệu AVIES, hoạt động, điều kiện thành viên và Ban Chấp hành; ảnh của trang được lưu tại `images/about/`
-- Trọng tâm hoạt động và mạng lưới chuyên môn
-- Dòng thời gian 2018–2026 với liên kết nguồn cho từng sự kiện
-- Sáng kiến VietSearch, V-Space và các số liệu đóng góp cộng đồng
-- Trang bảo vệ dữ liệu, thông tin website, sitemap và robots
+- Trang chủ giới thiệu AVIES, sứ mệnh, bốn trọng tâm hoạt động và các lĩnh vực trong mạng lưới chuyên gia.
+- Ba chuyên mục nội dung: **Gương mặt chuyên gia**, **Tin tức hoạt động** và **Góc nhìn chuyên môn**; bài viết được quản lý riêng theo từng chuyên mục và tạo trang khi build.
+- Mục sáng kiến và tác động cộng đồng giới thiệu VietSearch, V-Space cùng các khoản đóng góp được dẫn nguồn.
+- Trang `about.html` trình bày thông tin về Hội, cách hoạt động, điều kiện tham gia và Ban Chấp hành.
+- Các trang hỗ trợ gồm bảo vệ dữ liệu, thông tin website, sitemap, robots và trang 404.
 
 ## Chạy và kiểm tra
 
@@ -35,6 +34,8 @@ Các dấu mốc hoạt động được đăng thành bài trong `content/tin-t
 Không đưa email, số điện thoại hoặc hồ sơ cá nhân của thành viên lên website khi chưa có sự đồng ý.
 
 ## Đăng bài viết
+
+Trong VS Code, có thể chọn agent **Add Content** và cung cấp URL cùng chuyên mục (`tin-tuc`, `chuyen-mon` hoặc `chuyen-gia`) để biên tập bài từ nguồn công khai. Agent sẽ tạo bài Markdown, dẫn nguồn và kiểm tra ảnh theo hướng dẫn bên dưới.
 
 Nội dung bài viết được chia theo chuyên mục trong các thư mục:
 
