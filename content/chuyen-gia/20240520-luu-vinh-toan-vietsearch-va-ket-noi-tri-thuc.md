@@ -1,7 +1,7 @@
 ---
 title: "TS. Lưu Vĩnh Toàn: Kết nối tri thức Việt qua công nghệ"
 summary: "Từ kinh nghiệm tìm kiếm thông tin và trí tuệ nhân tạo, TS. Lưu Vĩnh Toàn cùng cộng sự phát triển VietSearch và các sáng kiến kết nối nguồn lực Việt toàn cầu."
-image: "images/luu-vinh-toan-vtc-portrait.jpg"
+image: "images/luu-vinh-toan.jpg"
 sourceUrl: "https://vtcnews.vn/chuyen-gia-cong-nghe-viet-o-thuy-sy-tim-cach-noi-dai-du-an-huong-ve-que-huong-ar863639.html"
 sourceLabel: "VTC News, ngày 20/05/2024"
 ---
@@ -13,3 +13,5 @@ Từ mong muốn kết nối nguồn lực Việt trên toàn cầu, ông cùng 
 
 
 *Bài viết được biên tập từ thông tin VTC News công bố ngày 20/05/2024. Ảnh: TS. Lưu Vĩnh Toàn cùng đại diện AVIES tham gia Diễn đàn Người Việt có tầm ảnh hưởng 2024, nguồn VTC News.*
+
+![Ts. Lưu Vĩnh Toàn và thành viên AVIES tham dự sự kiện Người Việt có tầm ảnh hưởng 2024 tại Paris.](images/luu-vinh-toan-avies.jpg "Thành viên AVIES tham dự sự kiện Người Việt có tầm ảnh hưởng 2024 tại Paris.")

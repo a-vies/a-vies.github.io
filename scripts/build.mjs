@@ -94,6 +94,7 @@ const renderInlineMarkdown = (text) => {
 const renderMarkdown = (markdown) => {
   const lines = markdown.replace(/\r\n/g, "\n").split("\n");
   const blocks = [];
+  const images = [];
   let paragraph = [];
   let list = null;
   let code = null;
@@ -129,12 +130,19 @@ const renderMarkdown = (markdown) => {
 
     const heading = /^(#{1,6})\s+(.+)$/.exec(line);
     const listItem = /^\s*([-*+]|\d+\.)\s+(.+)$/.exec(line);
+    const image = /^!\[([^\]]*)\]\(([^\s)]+)(?: "([^"]*)")?\)\s*$/.exec(line);
     if (!listItem) flushList();
-    if (heading || listItem || /^\s*$/.test(line) || /^>\s?/.test(line) || /^---+$/.test(line)) {
+    if (heading || listItem || image || /^!\[/.test(line) || /^\s*$/.test(line) || /^>\s?/.test(line) || /^---+$/.test(line)) {
       flushParagraph();
     }
     if (!line.trim()) continue;
-    if (heading) {
+    if (image) {
+      const [, alt, src, caption] = image;
+      images.push(src);
+      blocks.push(`<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" />${caption !== undefined ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}</figure>`);
+    } else if (/^!\[/.test(line)) {
+      throw new Error(`Invalid Markdown image: ${line}`);
+    } else if (heading) {
       const level = heading[1].length;
       blocks.push(`<h${level}>${renderInlineMarkdown(heading[2])}</h${level}>`);
     } else if (listItem) {
@@ -154,7 +162,18 @@ const renderMarkdown = (markdown) => {
   if (code) throw new Error("Unclosed fenced code block in Markdown article.");
   flushParagraph();
   flushList();
-  return blocks.join("\n");
+  return { html: blocks.join("\n"), images };
+};
+
+const validateImage = async (image, file, category) => {
+  if (typeof image !== "string" || !/^images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(image)) {
+    throw new Error(`Article image must point to a local file under content/${category.slug}/images/: content/${category.slug}/${file}`);
+  }
+  try {
+    await access(join("content", category.slug, image));
+  } catch (error) {
+    throw new Error(`Article image file does not exist: content/${category.slug}/${image}`, { cause: error });
+  }
 };
 
 const validateArticle = async (article, file, category) => {
@@ -175,14 +194,7 @@ const validateArticle = async (article, file, category) => {
   if (typeof article.summary !== "string" || !article.summary.trim()) {
     throw new Error(`Article summary is required: content/${category.slug}/${file}`);
   }
-  if (typeof article.image !== "string" || !/^images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(article.image)) {
-    throw new Error(`Article image must point to a local file under content/${category.slug}/images/: content/${category.slug}/${file}`);
-  }
-  try {
-    await access(join("content", category.slug, article.image));
-  } catch (error) {
-    throw new Error(`Article image file does not exist: content/${category.slug}/${article.image}`, { cause: error });
-  }
+  await Promise.all([article.image, ...article.bodyImages].map((image) => validateImage(image, file, category)));
   if (article.author !== undefined && typeof article.author !== "string") {
     throw new Error(`Article author must be a string: content/${category.slug}/${file}`);
   }
@@ -243,7 +255,8 @@ for (const category of categories) {
   const articles = await Promise.all(files.map(async (file) => {
     const sourcePath = join(sourceDirectory, file);
     const article = parseMarkdownFile(await readFile(sourcePath, "utf8"), sourcePath);
-    return { ...await validateArticle({ ...article, bodyHtml: renderMarkdown(article.markdown) }, file, category), file };
+    const body = renderMarkdown(article.markdown);
+    return { ...await validateArticle({ ...article, bodyHtml: body.html, bodyImages: body.images }, file, category), file };
   }));
   articles.sort((left, right) => right.date.localeCompare(left.date) || left.file.localeCompare(right.file));
 

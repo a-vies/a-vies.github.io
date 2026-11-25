@@ -1,9 +1,9 @@
 ---
 title: "Võ Cẩm Quy: từ nghiên cứu công nghệ sinh học đến khởi nghiệp"
 summary: "Hành trình từ nghiên cứu, quản lý học thuật đến hai dự án khởi nghiệp tại châu Âu."
-image: "images/vo-cam-quy.svg"
-sourceUrl: "https://sites.google.com/view/trithuc-chuyengia-thuysi/g%C6%B0%C6%A1ng-m%E1%BA%B7t-chuy%C3%AAn-gia"
-sourceLabel: "Trang Gương mặt chuyên gia của AVIES"
+image: "images/vo-cam-quy.jpg"
+sourceUrl: "https://tuoitre.vn/nu-tien-si-roi-giang-duong-khoi-nghiep-xu-nguoi-20180309120624319.htm"
+sourceLabel: "tuoitre.vn"
 ---
 
 Trang Gương mặt chuyên gia của AVIES giới thiệu Tiến sĩ Võ Cẩm Quy, người được đào tạo trong lĩnh vực công nghệ sinh học tại Trường Đại học Khoa học Tự nhiên. Sau thời gian giảng dạy và đảm nhiệm công việc quản lý ở trường, chị tiếp tục học tập và làm việc tại nhiều nước châu Âu và Bắc Mỹ.
