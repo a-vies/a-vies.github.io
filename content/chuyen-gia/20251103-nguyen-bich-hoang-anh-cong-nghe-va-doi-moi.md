@@ -1,7 +1,7 @@
 ---
 title: "Nguyễn Bích Hoàng Anh: Công nghệ và đổi mới tại Thụy Sĩ"
 summary: "Từ kinh nghiệm dẫn dắt đội ngũ kỹ sư tại Google Zürich, Nguyễn Bích Hoàng Anh chia sẻ về môi trường đổi mới và phát triển nhân tài công nghệ ở Thụy Sĩ."
-image: "images/images/hoang-anh-google.webp"
+image: "images/hoang-anh-google.webp"
 author: "Biên tập từ cuộc phỏng vấn Nguyễn Bích Hoàng Anh trên Tatler Asia"
 sourceUrl: "https://www.tatlerasia.com/power-purpose/innovation/best-of-switzerland-interview-senior-manager-google-z%C3%BCrich-nguyen-bich-hoang-anh-vn"
 sourceLabel: "Tatler Asia"
