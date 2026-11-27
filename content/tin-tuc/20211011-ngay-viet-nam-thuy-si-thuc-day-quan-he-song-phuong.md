@@ -1,7 +1,7 @@
 ---
 title: "Ngày Việt Nam tại Thụy Sĩ 2021 thúc đẩy quan hệ song phương"
 summary: "Chương trình trực tuyến giới thiệu văn hóa, con người Việt Nam và mở rộng trao đổi về hợp tác Việt Nam–Thụy Sĩ, trong đó có đổi mới sáng tạo và chuyển đổi số."
-image: "images/vietnam_in_switzerland_2.jpg"
+image: "images/vietnam-in-switzerland-2.jpg"
 sourceUrl: "https://vietnamnet.vn/en/vietnam-day-in-switzerland-2021-promotes-bilateral-relations-781948.html"
 sourceLabel: "VietnamNet (VOV)"
 ---
