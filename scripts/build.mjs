@@ -166,13 +166,18 @@ const renderMarkdown = (markdown) => {
 };
 
 const validateImage = async (image, file, category) => {
-  if (typeof image !== "string" || !/^images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(image)) {
-    throw new Error(`Article image must point to a local file under content/${category.slug}/images/: content/${category.slug}/${file}`);
+  const isSharedCategoryImage = typeof image === "string" && /^\.\.\/images\/categories\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(image);
+  const isLocalImage = typeof image === "string" && /^images\/[a-z0-9-]+\.(svg|webp|png|jpe?g|avif)$/.test(image);
+  if (!isSharedCategoryImage && !isLocalImage) {
+    throw new Error(`Article image must point to a local file under content/${category.slug}/images/ or the shared images/categories/ directory: content/${category.slug}/${file}`);
   }
+  const imagePath = isSharedCategoryImage
+    ? join("images", "categories", image.split("/").at(-1))
+    : join("content", category.slug, image);
   try {
-    await access(join("content", category.slug, image));
+    await access(imagePath);
   } catch (error) {
-    throw new Error(`Article image file does not exist: content/${category.slug}/${image}`, { cause: error });
+    throw new Error(`Article image file does not exist: ${imagePath}`, { cause: error });
   }
 };
 

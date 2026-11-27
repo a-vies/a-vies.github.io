@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <title>Truyền thông và công nghệ số — AVIES</title>
+  <rect width="1200" height="675" fill="#f1f2ef"/>
+  <path d="M0 0h18v675H0zM70 0h1v675h-1zM640 0h560v675H640z" fill="#e30613"/>
+  <circle cx="870" cy="325" r="220" fill="#151515"/>
+  <circle cx="870" cy="325" r="192" fill="none" stroke="#e30613" stroke-width="2"/>
+  <circle cx="870" cy="325" r="154" fill="none" stroke="#fff" stroke-width="3" opacity=".65"/>
+  <path d="M759 268h222v137H759z" fill="#fff"/>
+  <path d="M782 291h176v91H782z" fill="#151515"/>
+  <path d="m840 310 57 27-57 27z" fill="#e30613"/>
+  <path d="M819 427h102m-51-22v22" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M660 540 1078 122M690 575 1100 165" stroke="#fff" stroke-width="2" opacity=".25"/>
+  <text x="86" y="270" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="8">AVIES</text>
+  <text x="86" y="330" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="700">TRUYỀN THÔNG · CÔNG NGHỆ SỐ</text>
+  <text x="86" y="575" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="15" letter-spacing="5">TRI THỨC · KẾT NỐI · HÀNH ĐỘNG</text>
+</svg>

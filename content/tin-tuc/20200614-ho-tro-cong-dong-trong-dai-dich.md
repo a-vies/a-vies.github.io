@@ -1,8 +1,8 @@
 ---
 title: "Đồng hành cùng cộng đồng người Việt trong đại dịch"
 summary: "Đại sứ quán Việt Nam chuyển khẩu trang tới cộng đồng tại Thụy Sĩ thông qua AVIES và Hội Sinh viên Việt Nam."
-image: "images/editorial-cover.svg"
-sourceUrl: "https://en.vietnamplus.vn/vietnam-sends-masks-to-ovs-in-switzerland-amidst-covid-19-post174938.vnp"
+image: "images/trao_khau_trang_cua_chinh_phu_danh_tang_cong_dong_nguoi_viet.jpg"
+sourceUrl: "https://baoquocte.vn/dai-su-quan-viet-nam-tai-thuy-sy-trao-khau-trang-cua-chinh-phu-tang-cong-dong-nguoi-viet-117554.html"
 sourceLabel: "VietnamPlus"
 ---
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <title>Kỹ thuật và công nghiệp — AVIES</title>
+  <rect width="1200" height="675" fill="#f1f2ef"/>
+  <path d="M0 0h18v675H0zM70 0h1v675h-1z" fill="#e30613"/>
+  <path d="M640 0h560v675H640z" fill="#e30613"/>
+  <circle cx="870" cy="325" r="220" fill="#151515"/>
+  <circle cx="870" cy="325" r="192" fill="none" stroke="#e30613" stroke-width="2"/>
+  <circle cx="870" cy="325" r="154" fill="none" stroke="#fff" stroke-width="3" opacity=".65"/>
+  <path d="m870 213 27 13 24-15 25 25-15 24 13 27 28 8v35l-28 8-13 27 15 24-25 25-24-15-27 13-8 28h-35l-8-28-27-13-24 15-25-25 15-24-13-27-28-8v-35l28-8 13-27-15-24 25-25 24 15 27-13 8-28h35z" fill="#fff"/>
+  <circle cx="870" cy="325" r="48" fill="#151515" stroke="#e30613" stroke-width="8"/>
+  <circle cx="870" cy="325" r="14" fill="#fff"/>
+  <path d="M660 540 1078 122M690 575 1100 165" stroke="#fff" stroke-width="2" opacity=".25"/>
+  <text x="86" y="270" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="8">AVIES</text>
+  <text x="86" y="330" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="1">KỸ THUẬT · CÔNG NGHIỆP</text>
+  <text x="86" y="575" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="15" letter-spacing="5">TRI THỨC · KẾT NỐI · HÀNH ĐỘNG</text>
+</svg>

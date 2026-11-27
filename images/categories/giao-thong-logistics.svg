@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <title>Giao thông và logistics — AVIES</title>
+  <rect width="1200" height="675" fill="#f1f2ef"/>
+  <path d="M0 0h18v675H0zM70 0h1v675h-1zM640 0h560v675H640z" fill="#e30613"/>
+  <circle cx="870" cy="325" r="220" fill="#151515"/>
+  <circle cx="870" cy="325" r="192" fill="none" stroke="#e30613" stroke-width="2"/>
+  <circle cx="870" cy="325" r="154" fill="none" stroke="#fff" stroke-width="3" opacity=".65"/>
+  <path d="M755 271h176l37 96H730z" fill="#fff"/>
+  <path d="M779 291h46v39h-58zm63 0h76l18 39h-94z" fill="#e30613"/>
+  <path d="M744 367h224v29H744z" fill="#fff"/>
+  <circle cx="785" cy="401" r="20" fill="#151515" stroke="#fff" stroke-width="7"/>
+  <circle cx="922" cy="401" r="20" fill="#151515" stroke="#fff" stroke-width="7"/>
+  <path d="M752 433h225m-40 20h60m-265 0h52" stroke="#e30613" stroke-width="7" stroke-linecap="round"/>
+  <path d="M660 540 1078 122M690 575 1100 165" stroke="#fff" stroke-width="2" opacity=".25"/>
+  <text x="86" y="270" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="8">AVIES</text>
+  <text x="86" y="330" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="700">GIAO THÔNG · LOGISTICS</text>
+  <text x="86" y="575" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="15" letter-spacing="5">TRI THỨC · KẾT NỐI · HÀNH ĐỘNG</text>
+</svg>

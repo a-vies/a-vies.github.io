@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <title>Chính sách và hợp tác quốc tế — AVIES</title>
+  <rect width="1200" height="675" fill="#f1f2ef"/>
+  <path d="M0 0h18v675H0zM70 0h1v675h-1z" fill="#e30613"/>
+  <path d="M640 0h560v675H640z" fill="#e30613"/>
+  <circle cx="870" cy="325" r="220" fill="#151515"/>
+  <circle cx="870" cy="325" r="192" fill="none" stroke="#e30613" stroke-width="2"/>
+  <circle cx="870" cy="325" r="154" fill="none" stroke="#fff" stroke-width="3" opacity=".65"/>
+  <circle cx="870" cy="325" r="101" fill="none" stroke="#fff" stroke-width="7"/>
+  <path d="M769 325h202m-101-101c-31 28-46 62-46 101s15 74 46 101m0-202c31 28 46 62 46 101s-15 74-46 101m-73-155h146m-146 108h146" fill="none" stroke="#fff" stroke-width="6"/>
+  <circle cx="870" cy="325" r="14" fill="#e30613"/>
+  <circle cx="769" cy="325" r="10" fill="#e30613"/><circle cx="971" cy="325" r="10" fill="#e30613"/>
+  <path d="M660 540 1078 122M690 575 1100 165" stroke="#fff" stroke-width="2" opacity=".25"/>
+  <text x="86" y="270" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="8">AVIES</text>
+  <text x="86" y="330" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="1">CHÍNH SÁCH · HỢP TÁC QUỐC TẾ</text>
+  <text x="86" y="575" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="15" letter-spacing="5">TRI THỨC · KẾT NỐI · HÀNH ĐỘNG</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <title>Cộng đồng và kết nối — AVIES</title>
+  <rect width="1200" height="675" fill="#f1f2ef"/>
+  <path d="M0 0h18v675H0zM70 0h1v675h-1z" fill="#e30613"/>
+  <path d="M640 0h560v675H640z" fill="#e30613"/>
+  <circle cx="870" cy="325" r="220" fill="#151515"/>
+  <circle cx="870" cy="325" r="192" fill="none" stroke="#e30613" stroke-width="2"/>
+  <circle cx="870" cy="325" r="154" fill="none" stroke="#fff" stroke-width="3" opacity=".65"/>
+  <g stroke="#fff" stroke-width="9" opacity=".95">
+    <path d="m870 263-78 58 43 92 88-5 43-87-96-58z"/>
+    <path d="m792 321 84 87m-84-87h174m-131 92 36-150m52 145-45-145"/>
+  </g>
+  <g fill="#e30613" stroke="#fff" stroke-width="5">
+    <circle cx="870" cy="263" r="19"/><circle cx="792" cy="321" r="19"/><circle cx="876" cy="408" r="19"/>
+    <circle cx="964" cy="403" r="19"/><circle cx="1007" cy="321" r="19"/>
+  </g>
+  <path d="M660 540 1078 122M690 575 1100 165" stroke="#fff" stroke-width="2" opacity=".25"/>
+  <text x="86" y="270" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="8">AVIES</text>
+  <text x="86" y="330" fill="#151515" font-family="Helvetica,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="1">CỘNG ĐỒNG · KẾT NỐI</text>
+  <text x="86" y="575" fill="#626562" font-family="Helvetica,Arial,sans-serif" font-size="15" letter-spacing="5">TRI THỨC · KẾT NỐI · HÀNH ĐỘNG</text>
+</svg>
